@@ -1,17 +1,16 @@
 # 2023
 
-Day01:
-    - part1 OK
-    - part2 OK
+## Days
 
-Day02:
-    - part1 OK
-    - part2 OK
-
-Day03:
-    - part1 NO
-    - part2 NO
-
-Day04:
-    - part1 OK
-    - part2 OK
+1. day:
+  part1 OK
+  part2 OK
+2. day:
+  part1 OK
+  part2 OK
+3. day:
+  part1 NO
+  part2 NO
+4. day:
+  part1 OK
+  part2 OK
