@@ -14,3 +14,6 @@
 4. day:
     - part1 OK
     - part2 OK
+5. day:
+    - part1 OK
+    - part2 NO
