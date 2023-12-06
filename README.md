@@ -29,3 +29,6 @@
 2. day:
     - part1 OK
     - part2 OK
+3. day:
+    - part1 OK
+    - part2 OK
