@@ -21,3 +21,5 @@
 | 4 | OK | OK |
 | 5 | OK | OK |
 | 6 | OK | OK |
+| 7 | SKIP | SKIP |
+| 8 | OK | OK |
