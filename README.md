@@ -9,8 +9,8 @@
     - part1 OK
     - part2 OK
 3. day:
-    - part1 NO
-    - part2 NO
+    - part1 OK
+    - part2 OK
 4. day:
     - part1 OK
     - part2 OK
