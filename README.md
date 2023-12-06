@@ -1,6 +1,6 @@
-# 2023
+# AdventOfCode
 
-## Days
+## 2023
 
 1. day:
     - part1 OK
@@ -18,5 +18,11 @@
     - part1 OK
     - part2 NO
 6. day:
+    - part1 OK
+    - part2 OK
+
+## 2022
+
+1. day:
     - part1 OK
     - part2 OK
