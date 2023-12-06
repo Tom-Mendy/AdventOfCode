@@ -20,3 +20,4 @@
 | 3 | OK | OK |
 | 4 | OK | OK |
 | 5 | OK | OK |
+| 6 | OK | OK |
