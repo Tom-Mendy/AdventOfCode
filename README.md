@@ -17,3 +17,6 @@
 5. day:
     - part1 OK
     - part2 NO
+6. day:
+    - part1 OK
+    - part2 OK
