@@ -2,33 +2,20 @@
 
 ## 2023
 
-1. day:
-    - part1 OK
-    - part2 OK
-2. day:
-    - part1 OK
-    - part2 OK
-3. day:
-    - part1 OK
-    - part2 OK
-4. day:
-    - part1 OK
-    - part2 OK
-5. day:
-    - part1 OK
-    - part2 NO
-6. day:
-    - part1 OK
-    - part2 OK
+| day | part 1 | part 2 |
+| - | - | - |
+| 1 | OK | OK |
+| 2 | OK | OK |
+| 3 | OK | OK |
+| 4 | OK | OK |
+| 5 | OK | NO |
+| 6 | OK | OK |
 
 ## 2022
 
-1. day:
-    - part1 OK
-    - part2 OK
-2. day:
-    - part1 OK
-    - part2 OK
-3. day:
-    - part1 OK
-    - part2 OK
+| day | part 1 | part 2 |
+| - | - | - |
+| 1 | OK | OK |
+| 2 | OK | OK |
+| 3 | OK | OK |
+
