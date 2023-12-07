@@ -8,7 +8,7 @@
 | 2 | OK | OK |
 | 3 | OK | OK |
 | 4 | OK | OK |
-| 5 | OK | NO |
+| 5 | OK | OK |
 | 6 | OK | OK |
 | 7 | OK | OK |
 

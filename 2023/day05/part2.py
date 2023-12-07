@@ -4,28 +4,16 @@ file = open("./input.txt", "r")
 my_file_parse: list[str] = file.readlines()
 file.close()
 
-total = 100000000000000000000000000000000000
-
-
 index_tab_map = -1
-seed_to_soil_map = []
-soil_to_fertilizer_map = []
-fertilizer_to_water_map = []
-water_to_light_map = []
-light_to_temperature_map = []
-temperature_to_humidity_map = []
-humidity_to_location_map = []
-tab_maps = [
-    seed_to_soil_map,
-    soil_to_fertilizer_map,
-    fertilizer_to_water_map,
-    water_to_light_map,
-    light_to_temperature_map,
-    temperature_to_humidity_map,
-    humidity_to_location_map
-]
+
+tab_maps = [[]  for i in range (0, 7)]
 
 seeds = my_file_parse[0][:-1].split(":")[1][1:].split(" ")
+
+seeds = [int(seed) for seed in seeds]
+
+print("seeds =", seeds)
+
 for i in range(1, len(my_file_parse)):
     if ":" in my_file_parse[i]:
         index_tab_map += 1
@@ -39,27 +27,27 @@ for i in range(1, len(my_file_parse)):
                 line[k] = int(line[k])
             tab_maps[index_tab_map].append(line)
 
-already_done = []
+search_seed = True
 
-for i in range (0, len(seeds), 2):
-    print("i =", i)
-    print("total =", total)
-    for j in range(int(seeds[i]), int(seeds[i]) + int(seeds[i + 1])):
-        tmp_total = j
-        if tmp_total not in already_done:
-            already_done.append(tmp_total)
-            for map in tab_maps:
-                for line in map:
-                    if tmp_total >= line[1] and tmp_total < line[1] + line[2]:
-                        tmp_total = line[0] + (tmp_total - line[1])
-                        break
-            if tmp_total < total:
-                total = tmp_total
-        else:
-            print("already_done", tmp_total)
+i = 0
 
+while search_seed:
+    i += 1
+    tmp_total = i
+    for j in range (len(tab_maps) - 1, -1, -1):
+        tab_maps[j]
+        for line in tab_maps[j]:
+            if tmp_total >= line[0] and tmp_total < line[0] + line[2]:
+                tmp_total = line[1] + (tmp_total - line[0])
+                break
+    for j in range (0, len(seeds), 2):
+        if tmp_total >= seeds[j] and tmp_total < seeds[j] + seeds[j + 1]:
+            search_seed = False
+            break
+    print("i =", i, "tmp_total =", tmp_total)
 
-print("Total = ", total)
+print("Total = ", i)
 
-# attempt 1 100 too low , idiot I have set total = 100
-# attempt 2 525792406 the result
+# attempt 1 102900316 is too hight
+# attempt 2 79004094 is the result so long
+
