@@ -56,6 +56,7 @@ in rust
 | day | part 1 | part 2 |
 | --- | ------ | ------ |
 | 1   | OK     | OK     |
+| 2   | OK     | NOT    |
 
 ### 2024
 
