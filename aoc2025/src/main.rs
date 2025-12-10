@@ -1,3 +1,7 @@
+#![deny(warnings)]
+#![deny(clippy::redundant_clone)]
+#![deny(clippy::unwrap_used)]
+
 mod days;
 
 fn main() {
